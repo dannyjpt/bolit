@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Danny.io</title>
+    
+</head>
+<body>
+    <div id="recuadro">
+        <div id="inicio">
+            <h3 style="display:inline-block">Dany.io</h3>
+            <img src="/img/logopng.png" alt="">
+            <input type="text" placeholder="Nick" id="txtMensaje">
+            <select id="color">
+                <option value="#a4f21e">verde</option>
+                <option value="#2196F3">azul</option>
+                <option value="#F44336">Rojo</option>
+            </select>
+            <button id="mapa">Crear Plataforma</button>
+            <button id="boton">Conectar</button>
+            </hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum possimus ipsum nulla, ab neque animi earum voluptatibus vero vitae. Necessitatibus dignissimos officiis nam culpa quae velit, ea fuga beatae minus!</p>
+            <div id="facebook" class="social"><i class="fa fa-facebook"></i></div>
+            <div id="youtube" class="social"><i class="fa fa-youtube"></i></div>
+        </div>
+    </div>
+      <div id="chat" onmouseover="parar=1" onmouseout="parar=0"></div>
+           <input type="text" id="mens">
+           <input type="file" id="foto"  name="foto">
+           <button id="send">OK</button>
+      
+    <section id="plataforma">
+        <aside id="contenedor">
+            <h3>Ranking</h3>
+            <ul id="puesto" style="float:left">
+            <li>1. </li>
+            <li>2. </li>
+            <li>3. </li>
+            <li>4. </li>
+            <li>5. </li>
+            </ul>
+            <ul id="listap"></ul>
+        </aside>
+    </section>
+</body>
+
+<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "bolitio",
+  "version": "1.0.0",
+  "description": "simpleagar",
+  "main": "servidor.js",
+  "dependencies": {
+    "express": "^4.14.1",
+    "github": "^9.0.0",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node servidor.js"
+  },
+    "engines": {
+    "node":"v6.9.4",
+    "npm":"3.10.10"
+  },
+  "author": "danny",
+  "license": "ISC"
+}

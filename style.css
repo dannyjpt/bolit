@@ -1,0 +1,266 @@
+
+	body{
+		font-family: arial;
+		padding: 0px;
+		margin: 0px;
+        background: black;
+		/*background-image: url("http://coleccion.educ.ar/coleccion/CD22/img/msc/haciendo-bandera2_IMG.jpg");*/
+	}
+
+	#plataforma{
+		width: 100%;
+		height: 900px;
+		position: absolute;
+
+	}
+	aside{
+		position: fixed;
+        overflow: auto;
+		background-color: rgba(250,250,250,0.3);
+		width: 200px;
+		height: 300px;	
+		right: 0px;
+		border-radius: 0px;
+		font-size: 20px;
+		z-index: 99999;
+		text-align: center;
+		color: white;
+	}
+
+    #chat {
+        overflow: auto;
+        position: fixed;
+        width: 30%;
+        height: 28%;
+        bottom: 5%;
+        background-color: rgba(250,250,250,0.3);
+        right: 1%;
+        color:white;
+        z-index: 99999;
+     }
+    
+     #send {
+        position: fixed;
+        width: 8%;
+        bottom: 1%;
+        right: 1%;
+        z-index: 99999;
+    }
+    
+    #mens {
+        position: fixed;
+        width: 20.7%;
+        bottom: 1%;
+        right: 10%;
+        z-index: 99999;
+    }
+	
+	#puesto ,#listaj {
+		display: inline-block;
+		list-style: none;
+		
+	}
+	#puesto li,#listaj li {
+		height: 50px;
+		
+	}
+	aside:hover{
+		z-index: -1;
+	}
+
+	.player{
+		width: 20px;
+		height: 20px;
+		padding: 10px;
+		text-align: center;
+		position: absolute;
+		border-radius: 50%;
+		z-index: 9999;color: white;
+	}
+	
+    .icon{
+        width: 20px;
+        height: 20px;
+        padding: 8px;
+        margin-top: 4px;
+        margin-left: 4px;
+        font-weight: bold;
+        font-family: sans-serif;
+        text-align: center;
+        position: absolute;
+        border-radius: 10%;
+        z-index: 9999;
+    }
+
+    #foto{
+    margin-top: 50px;
+    }
+
+   .letramen{
+        margin-top: 20px;
+        font-family: sans-serif;
+    }
+    .letranon{
+        padding-top: 20px;
+        padding-left: 50px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+ 	
+	#plataforma div{
+		width: 5px;
+		height: 5px;
+		background-color: red;
+		border:0px;
+		padding: 10px;
+		border-radius:50%;
+		font-size: 0px;
+		position: absolute;
+		display: inline-block;
+	}
+	#recuadro{
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,0.5);
+		position: fixed;
+		z-index: 9999999;
+		box-shadow: 5px 5px 12px rgba(0,0,0,0.5);
+
+
+	}
+
+	#recuadro #inicio{
+		background-color: white;
+		position: absolute;
+		z-index: 99999;
+		padding: 20px;
+		width: 350px;
+		border-radius: 5px;
+		top: 40px;
+		left: 50%;
+		margin-left: -195px;
+
+	}
+	#inicio input{
+		height: 25px;
+		width: 70%;
+		border-radius: 5px;
+		border:1px solid gray;
+		padding: 5px;
+
+	}
+	#inicio img{
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		display: inline-block;
+		float: right;
+		margin-top: 5px;
+	}
+	#color{
+		width: 25%;
+		height: 37px;
+		border-radius: 5px;
+		border:1px solid gray;
+		padding: 5px;
+
+	}
+	#inicio button{
+		border-radius: 5px;
+		border:0px solid transparent;
+		color: white;
+		height: 40px;
+		padding-top:10px;
+		padding-bottom: 10px;
+		margin-top: 10px;
+		cursor: pointer;
+	}
+	#inicio p{
+		text-align: center;
+		color: #A9A9A9;
+	}
+	#boton{
+		background-color: #31b0d5;
+	}
+	#mapa{
+		background-color: #4CAF50;
+	}
+	.social{
+		padding: 10px;
+		display: inline-block;
+		border-radius: 5px;
+		color: white;
+	}
+	.social a{
+		color: white;
+		text-decoration: none;
+	}
+	#facebook{
+		background-color: #FF5722;
+	}
+	#youtube{
+		background-color: #FF5722;
+	}
+	/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.fondo{
+	width: 100%;
+	height: 100vh;
+	margin-top: -20px;
+	background-repeat: no-repeat;
+	background-size: 1280px 900px;
+}
+.container-fluid{
+	background-image: url("/public/images/simple-scales.gif");
+	background-size: 150px 150px;
+}
+.navtit{
+	font-size: 16px;
+	color: white;
+}
+.plataform{
+	width: 950px;
+	height: 500px;
+	margin: auto;
+	background-color: skyblue;
+}
+.player1{
+	position: absolute;
+	width: 800px;
+	height: 80px;
+	margin-top: 100px;
+	margin-left: 5.5%;
+	background-color: tomato;
+}
+.player2{
+	position: absolute;
+	width: 800px;
+	height: 80px;
+	margin-top: 300px;
+	margin-left: 5.5%;
+	background-color: tomato;
+}
+.send{
+     margin-left: 10px;
+}
+.mensaje{
+	margin-top: 3.5%;
+	margin-left: 2%;
+}
+.tit{
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+.about{
+	position: absolute;
+	overflow: auto;
+	width: 300px;
+	height: 250px;
+	margin-top: 70px;
+	margin-left: 80px;
+	background: rgba(36,3,2,0.5);
+}
+.about p{
+	color: white;
+	padding: 10px;
+}
